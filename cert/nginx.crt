@@ -1,0 +1,82 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, ST=Shanghai, L=Shanghai, O=Lulutrip, OU=Lulutrip, CN=*.lulu.com/emailAddress=tanghengzhi@live.com
+        Validity
+            Not Before: May 22 09:01:55 2017 GMT
+            Not After : May 22 09:01:55 2018 GMT
+        Subject: C=CN, ST=Shanghai, O=Lulutrip, OU=Lulutrip, CN=*.lulu.com/emailAddress=tanghengzhi@live.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c1:5c:f3:2f:d6:e6:44:97:fc:c1:2d:fe:78:cd:
+                    d6:ba:fa:2f:d1:e4:f4:53:e5:c0:45:d9:76:8e:f4:
+                    fc:69:6b:fb:34:f3:e8:4d:6b:33:84:c4:28:7a:0c:
+                    2c:c9:88:cf:ae:2f:8c:a4:6e:46:ea:99:18:7e:1e:
+                    03:52:93:95:38:a9:50:83:9e:5d:43:34:b4:02:4c:
+                    81:b4:31:0d:af:e1:d3:c7:91:7a:d1:d7:be:89:0b:
+                    d7:09:fb:b8:1f:ea:10:ec:32:7b:e1:e1:d1:51:03:
+                    9e:0c:3c:e3:a3:33:87:c5:01:27:de:6f:e9:bf:92:
+                    4b:fb:90:77:0c:b4:95:4d:35:77:76:c9:4d:d6:66:
+                    fc:7f:8d:84:e5:5f:7d:53:cc:d9:78:bb:ae:5b:c0:
+                    ea:64:e0:f5:5a:c2:d8:88:ae:db:5c:cd:b2:ca:f2:
+                    79:d5:0d:30:3a:5c:77:ab:89:10:99:e5:88:e5:95:
+                    b2:0e:b1:09:be:a4:62:57:ea:53:27:b7:c7:b3:a2:
+                    33:86:48:82:d9:42:39:bf:45:c5:19:07:ed:e3:35:
+                    57:6a:34:20:0f:fd:f3:d6:49:67:63:8f:c9:d3:91:
+                    ed:94:ae:20:90:67:e3:84:dd:0f:95:10:0a:ed:66:
+                    44:63:ff:3d:7f:b3:37:07:1f:6c:46:22:34:be:fc:
+                    bb:3f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                keyid:B0:07:E7:06:BF:CB:3F:58:DB:EC:D8:E7:71:85:A3:33:9F:F5:7D:B3
+
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:*.lulu.com
+    Signature Algorithm: sha256WithRSAEncryption
+         10:64:10:6e:13:90:52:b7:b7:21:37:f4:d5:f2:7a:e0:9d:35:
+         b8:69:d0:d5:8b:8c:09:48:28:88:72:27:26:76:ea:2b:fd:23:
+         70:80:72:dd:cc:67:4d:2d:37:ec:9d:0e:7c:a2:b5:42:34:06:
+         da:a2:41:51:74:e6:e7:76:77:58:e8:75:92:4d:35:d9:c3:13:
+         f3:0c:4a:17:b6:0c:78:15:37:4a:01:cd:e7:d2:15:db:6d:c9:
+         ec:56:d1:90:74:11:5b:5a:d7:47:24:38:70:b0:36:de:a2:ec:
+         55:7b:b4:10:76:62:32:ca:93:54:66:83:4f:bc:fd:b8:fa:58:
+         38:e4:26:f7:dd:e4:f2:48:48:42:41:0d:fe:26:d8:83:e9:b2:
+         ad:24:a8:c1:b3:67:c6:8a:98:f4:7a:78:a6:4d:fd:3f:23:37:
+         a3:c1:2e:a0:aa:cf:30:4c:64:d5:ee:6d:ca:4c:7a:cb:ff:47:
+         32:8c:5a:42:58:e8:63:19:3b:fd:fc:e0:ba:d8:da:67:49:41:
+         1a:c8:84:40:7d:9d:27:76:a4:36:f6:bc:5b:ca:4c:1a:ec:b1:
+         e0:ae:40:df:48:2d:9a:69:e2:3f:bf:65:0c:58:df:d4:47:e6:
+         a0:64:ec:ad:76:28:7b:c3:5e:d4:ed:55:13:48:94:b9:81:2a:
+         cc:4a:71:f5
+-----BEGIN CERTIFICATE-----
+MIID4jCCAsqgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCQ04x
+ETAPBgNVBAgMCFNoYW5naGFpMREwDwYDVQQHDAhTaGFuZ2hhaTERMA8GA1UECgwI
+THVsdXRyaXAxETAPBgNVBAsMCEx1bHV0cmlwMRMwEQYDVQQDDAoqLmx1bHUuY29t
+MSMwIQYJKoZIhvcNAQkBFhR0YW5naGVuZ3poaUBsaXZlLmNvbTAeFw0xNzA1MjIw
+OTAxNTVaFw0xODA1MjIwOTAxNTVaMIGAMQswCQYDVQQGEwJDTjERMA8GA1UECAwI
+U2hhbmdoYWkxETAPBgNVBAoMCEx1bHV0cmlwMREwDwYDVQQLDAhMdWx1dHJpcDET
+MBEGA1UEAwwKKi5sdWx1LmNvbTEjMCEGCSqGSIb3DQEJARYUdGFuZ2hlbmd6aGlA
+bGl2ZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBXPMv1uZE
+l/zBLf54zda6+i/R5PRT5cBF2XaO9Pxpa/s08+hNazOExCh6DCzJiM+uL4ykbkbq
+mRh+HgNSk5U4qVCDnl1DNLQCTIG0MQ2v4dPHkXrR176JC9cJ+7gf6hDsMnvh4dFR
+A54MPOOjM4fFASfeb+m/kkv7kHcMtJVNNXd2yU3WZvx/jYTlX31TzNl4u65bwOpk
+4PVawtiIrttczbLK8nnVDTA6XHeriRCZ5YjllbIOsQm+pGJX6lMnt8ezojOGSILZ
+Qjm/RcUZB+3jNVdqNCAP/fPWSWdjj8nTke2UriCQZ+OE3Q+VEArtZkRj/z1/szcH
+H2xGIjS+/Ls/AgMBAAGjUjBQMB8GA1UdIwQYMBaAFLAH5wa/yz9Y2+zY53GFozOf
+9X2zMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgTwMBUGA1UdEQQOMAyCCioubHVsdS5j
+b20wDQYJKoZIhvcNAQELBQADggEBABBkEG4TkFK3tyE39NXyeuCdNbhp0NWLjAlI
+KIhyJyZ26iv9I3CAct3MZ00tN+ydDnyitUI0BtqiQVF05ud2d1jodZJNNdnDE/MM
+She2DHgVN0oBzefSFdttyexW0ZB0EVta10ckOHCwNt6i7FV7tBB2YjLKk1Rmg0+8
+/bj6WDjkJvfd5PJISEJBDf4m2IPpsq0kqMGzZ8aKmPR6eKZN/T8jN6PBLqCqzzBM
+ZNXubcpMesv/RzKMWkJY6GMZO/384LrY2mdJQRrIhEB9nSd2pDb2vFvKTBrsseCu
+QN9ILZpp4j+/ZQxY39RH5qBk7K12KHvDXtTtVRNIlLmBKsxKcfU=
+-----END CERTIFICATE-----
