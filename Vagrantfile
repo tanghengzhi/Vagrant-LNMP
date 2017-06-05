@@ -66,14 +66,15 @@ Vagrant.configure("2") do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
-    #sudo cp /vagrant/sources.list /etc/apt/sources.list
-    #sudo apt update
-    #sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
-    #sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
-    #sudo apt install -y nginx mysql-server php7.0-cli php7.0-fpm php7.0-mysql php7.0-curl php7.0-gd php7.0-mbstring php7.0-mcrypt php7.0-xml
-    sudo cp /vagrant/hosts/hosts /etc/hosts
-    sudo cp /vagrant/nginx/nginx.conf /etc/nginx/nginx.conf
-    sudo cp -R /vagrant/nginx/sites-available /etc/nginx/sites-enabled
+    # Install
+    sudo cp /vagrant/sources.list /etc/apt/sources.list
+    sudo apt update
+    sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
+    sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
+    sudo apt install -y nginx mysql-server php7.0-cli php7.0-fpm php7.0-mysql php7.0-curl php7.0-gd php7.0-mbstring php7.0-mcrypt php7.0-xml php7.0-zip
+    # Runtime
+    sudo cp /vagrant/hosts/hosts /etc/host
+    sudo cp -R /vagrant/nginx/* /etc/nginx
     sudo nginx -s reload
   SHELL
 end
