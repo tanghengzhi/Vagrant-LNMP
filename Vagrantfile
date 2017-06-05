@@ -74,7 +74,9 @@ Vagrant.configure("2") do |config|
     sudo apt install -y nginx mysql-server php7.0-cli php7.0-fpm php7.0-mysql php7.0-curl php7.0-gd php7.0-mbstring php7.0-mcrypt php7.0-xml php7.0-zip
     # Runtime
     sudo cp /vagrant/hosts/hosts /etc/host
+    sudo rm /etc/nginx/sites-enabled/*
     sudo cp -R /vagrant/nginx/* /etc/nginx
+    sudo nginx -c /etc/nginx/nginx.conf
     sudo nginx -s reload
   SHELL
 end
