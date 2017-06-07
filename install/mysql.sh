@@ -1,0 +1,5 @@
+vagrant ssh -c "mysql -uroot -proot -e \"ALTER USER 'root'@'localhost' IDENTIFIED BY '';\""
+vagrant ssh -c "mysql -u root -e \"create database lltsfo2013;\""
+vagrant ssh -c "mysql -u root lltsfo2013 < /vagrant/lltsfo2013_2017-06-04.sql"
+vagrant ssh -c "mysql -u root < /vagrant/dbip_lookup.sql"
+vagrant ssh -c "mysql -u root < /vagrant/woqu2017.sql"
